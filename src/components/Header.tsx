@@ -33,8 +33,8 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center justify-between h-16 gap-4">
           {/* Zone 1: Brand title & Active Semester Pill */}
           <div className="flex items-center gap-3 shrink-0">
-            <div className="w-9 h-9 rounded-xl bg-slate-900 text-white flex items-center justify-center p-1 shadow-sm shrink-0 overflow-hidden border border-slate-700/50">
-              <img src="/app-logo.svg" alt="AttendSmart Logo" className="w-full h-full object-contain" />
+            <div className="w-9 h-9 rounded-xl overflow-hidden shadow-sm shrink-0 border border-slate-700/40 bg-slate-950 flex items-center justify-center">
+              <img src="/app-logo.svg" alt="AttendSmart Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <div className="flex items-center gap-2">
