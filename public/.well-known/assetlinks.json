@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "studio.ai.attendsmart_attendance_schedule_tracker.twa",
+        "sha256_cert_fingerprints": ["D1:3A:F0:C5:24:DC:A9:64:CC:99:6E:C9:18:2A:49:E2:E7:77:29:33:29:D8:14:8D:99:0C:CE:08:94:63:EA:F8"]
+      }
+    }]

@@ -1,0 +1,6 @@
+{
+  "name": "AttendSmart - 2nd Year Attendance & Schedule Tracker",
+  "description": "Comprehensive college attendance tracker for 2nd year students with daily marking, editable logs, multi-semester schedule support, 75% target calculator, and safe bunk simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="120" fill="url(#shieldGrad)" />
+  <rect x="12" y="12" width="488" height="488" rx="108" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.1" />
+
+  <path d="M256 70 L390 120 C390 270 340 375 256 425 C172 375 122 270 122 120 Z" 
+        fill="#1e293b" 
+        stroke="url(#emeraldGlow)" 
+        stroke-width="8" 
+        stroke-linejoin="round" />
+
+  <path d="M256 95 L368 138 C368 260 325 350 256 395 C187 350 144 260 144 138 Z" 
+        fill="#0f172a" 
+        stroke="#ffffff" 
+        stroke-width="1.5" 
+        stroke-opacity="0.1" />
+
+  <polygon points="256,150 350,190 256,230 162,190" fill="url(#emeraldGlow)" />
+  <path d="M196 206 L196 240 C196 268 316 268 316 240 L316 206" fill="#047857" opacity="0.9" />
+  
+  <circle cx="256" cy="190" r="5" fill="url(#goldGrad)" />
+  <path d="M256 190 Q300 200 320 230 L324 250" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round" />
+  <polygon points="320,248 328,248 326,268 322,268" fill="url(#goldGrad)" />
+
+  <path d="M200 305 L242 345 L322 260" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="20" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <rect x="180" y="375" width="152" height="34" rx="17" fill="url(#emeraldGlow)" />
+  <text x="256" y="399" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+        font-size="16" 
+        font-weight="900" 
+        letter-spacing="1.5" 
+        fill="#0f172a" 
+        text-anchor="middle">75% GOAL</text>
+</svg>
